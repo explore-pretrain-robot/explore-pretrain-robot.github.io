@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Visual-Force Imitation for Real-World Mobile Manipulation.">
-  <meta name="keywords" content="imitation learning, force-control, mobile manipulation, robots ">
+        content="Exploring Visual Pre-training for Robot Manipulation: Datasets, Models and Methods.">
+  <meta name="keywords" content="Visual Pre-training, Robot Manipulation, Visual Semantics, Temporal Dynamics">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Visual-Force Imitation for Real-World Mobile Manipulation</title>
+  <title>Exploring Visual Pre-training for Robot Manipulation: Datasets, Models and Methods</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -142,18 +142,17 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            In this paper, we present a novel method for mobile manipulators to perform various contact-rich tasks,
-            which require a fusion of mobility and manipulation skills. While learning-based approaches have the
-            potential to generate actions in an end-to-end manner, they often suffer from insufficient action accuracy
-            and lack of robustness. On the other hand, classical control-based approaches can enhance system robustness
-            and predictability, but at the cost of extensive parameter tuning. To address these challenges, we propose
-            a method that seamlessly combines representation learning for perception, imitation learning for complex
-            manipulation motion generation, and admittance whole-body control for system robustness and controllability.
-            Our method, called visual-force imitation, enables multi-task learning of various contact-rich tasks on a
-            mobile manipulator. In a real household setting, our method outperforms baseline methods in terms of task
-            success rate. Moreover, our method achieves smaller contact force and force variance compared to the
-            baseline method without force imitation. Overall, we offer a promising approach for developing efficient
-            and robust mobile manipulators in the real world.</p>
+            Visual pre-training with large-scale real-world data has made great progress in recent years, showing great potential 
+            in robot learning with pixel observations. However, the recipes of visual pre-training for robot manipulation tasks are 
+            yet to be built. In this paper, we thoroughly investigate the effects of visual pre-training strategies on robot manipulation 
+            tasks from three fundamental perspectives: pre-training datasets, model architectures and training methods. Several 
+            significant experimental findings are provided regarding pre-training paradigms that are beneficial for robot learning. 
+            Further, we propose a visual pre-training scheme for robot manipulation termed Vi-PRoM, which combines self-supervised 
+            learning and supervised learning. Concretely, the former employs contrastive learning to acquire underlying patterns from 
+            large-scale unlabeled data, while the latter allows learning visual semantics and temporal dynamics. In this way, 
+            the well-trained visual encoder is able to produce a comprehensive representation for the pixel input, thus facilitating 
+            robot manipulation tasks. Extensive experiments on robot manipulations in various simulation environments and the real 
+            robot demonstrate the superiority of the proposed scheme. </p>
         </div>
       </div>
     </div>
