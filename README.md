@@ -7,7 +7,7 @@ If you find it useful for your work please cite:
 @inproceedings{jing2023explore
   author    = {Ya Jing, Xuelin Zhu, Xingbin Liu, Qie Sima, Taozheng Yang, Yunhai Feng, Tao Kong},
   title     = {Exploring Visual Pre-training for Robot Manipulation: Datasets, Models and Methods},
-  booktitle = {2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  booktitle = {2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   year      = {2023},
 }
 ```
